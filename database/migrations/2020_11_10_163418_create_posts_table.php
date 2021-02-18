@@ -21,7 +21,6 @@ class CreatePostsTable extends Migration
             $table->text('body');
             $table->mediumText('image')->nullable();
             $table->string('category_id');
-
             $table->timestamps();
         });
     }
